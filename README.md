@@ -1,1 +1,2 @@
-# I-m-Muhammad-Umar
+# I'm Muhammad-Umar
+I am a current Bachelor's student in Artificial Intelligence at the Ghulam Ishaq Khan Institute, renowned for its excellence in Computer Science and Engineering in Pakistan. My passions lie in AI, Machine learning , Deep learning and Data Analytics.  I am particularly interested in working with platforms like Kaggle and Tableau for data representation, as well as utilizing tools such as Jupyter Notebook, Anaconda, and Google Colab to further my skills in development, machine learning, and data analytics.
