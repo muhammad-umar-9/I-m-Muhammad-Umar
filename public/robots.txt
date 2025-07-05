@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://muhammadumar.dev/sitemap.xml
+
+# Disallow crawling of assets that don't need to be indexed
+Disallow: /assets/
+Disallow: /*.pdf
+Disallow: /*.docx

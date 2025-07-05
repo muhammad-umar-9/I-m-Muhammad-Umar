@@ -1,0 +1,44 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="400" fill="#059669"/>
+  
+  <!-- Main Dashboard Container -->
+  <rect x="50" y="50" width="500" height="300" rx="15" fill="#FFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="50" y="50" width="500" height="60" rx="15" fill="#10B981"/>
+  <text x="80" y="85" fill="#FFF" font-family="Arial, sans-serif" font-size="20" font-weight="bold">Superstore Dashboard</text>
+  
+  <!-- Charts Section -->
+  <rect x="80" y="140" width="200" height="120" rx="8" fill="#F8F9FA" stroke="#E5E7EB"/>
+  <text x="180" y="160" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Sales Analysis</text>
+  
+  <!-- Simple Bar Chart -->
+  <rect x="100" y="180" width="20" height="50" fill="#3B82F6"/>
+  <rect x="130" y="190" width="20" height="40" fill="#10B981"/>
+  <rect x="160" y="170" width="20" height="60" fill="#F59E0B"/>
+  <rect x="190" y="185" width="20" height="45" fill="#EF4444"/>
+  <rect x="220" y="175" width="20" height="55" fill="#8B5CF6"/>
+  
+  <!-- KPI Section -->
+  <rect x="310" y="140" width="220" height="120" rx="8" fill="#F8F9FA" stroke="#E5E7EB"/>
+  <text x="420" y="160" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Key Metrics</text>
+  
+  <rect x="330" y="180" width="80" height="30" rx="5" fill="#3B82F6"/>
+  <text x="370" y="200" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="12">$2.3M Sales</text>
+  
+  <rect x="430" y="180" width="80" height="30" rx="5" fill="#10B981"/>
+  <text x="470" y="200" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="12">$286K Profit</text>
+  
+  <rect x="330" y="220" width="80" height="30" rx="5" fill="#F59E0B"/>
+  <text x="370" y="240" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="12">5,009 Orders</text>
+  
+  <rect x="430" y="220" width="80" height="30" rx="5" fill="#EF4444"/>
+  <text x="470" y="240" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="12">793 Customers</text>
+  
+  <!-- Excel Logo -->
+  <rect x="480" y="320" width="60" height="20" rx="3" fill="#217C3E"/>
+  <text x="510" y="333" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Excel</text>
+  
+  <text x="300" y="385" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="18" font-weight="bold">Interactive Excel Dashboard</text>
+</svg>

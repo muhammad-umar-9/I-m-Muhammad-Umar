@@ -1,0 +1,50 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="excelGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10B981;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#excelGradient)"/>
+  
+  <!-- Excel Interface -->
+  <rect x="40" y="40" width="520" height="320" rx="10" fill="#FFF" stroke="#E5E7EB" stroke-width="2"/>
+  
+  <!-- Excel Header -->
+  <rect x="40" y="40" width="520" height="50" rx="10" fill="#217C3E"/>
+  <text x="60" y="70" fill="#FFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">📊 Superstore Dashboard</text>
+  
+  <!-- Menu Bar -->
+  <rect x="40" y="90" width="520" height="30" fill="#F3F4F6"/>
+  <text x="60" y="108" fill="#374151" font-family="Arial, sans-serif" font-size="10">File  Edit  View  Insert  Data  Review</text>
+  
+  <!-- Chart Area -->
+  <rect x="60" y="140" width="240" height="180" rx="5" fill="#F8F9FA" stroke="#E5E7EB"/>
+  <text x="180" y="160" text-anchor="middle" fill="#374151" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Sales by Category</text>
+  
+  <!-- Bar Chart -->
+  <rect x="80" y="180" width="30" height="80" fill="#3B82F6"/>
+  <rect x="120" y="200" width="30" height="60" fill="#10B981"/>
+  <rect x="160" y="170" width="30" height="90" fill="#F59E0B"/>
+  <rect x="200" y="190" width="30" height="70" fill="#EF4444"/>
+  
+  <!-- KPI Cards -->
+  <rect x="320" y="140" width="80" height="60" rx="5" fill="#3B82F6"/>
+  <text x="360" y="160" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="10">Total Sales</text>
+  <text x="360" y="180" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">$2.3M</text>
+  
+  <rect x="410" y="140" width="80" height="60" rx="5" fill="#10B981"/>
+  <text x="450" y="160" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="10">Profit</text>
+  <text x="450" y="180" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="14" font-weight="bold">$286K</text>
+  
+  <!-- Data Table -->
+  <rect x="60" y="280" width="240" height="60" rx="3" fill="#F8F9FA" stroke="#E5E7EB"/>
+  <text x="70" y="300" fill="#374151" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Region  Sales  Profit  Orders</text>
+  <text x="70" y="320" fill="#6B7280" font-family="Arial, sans-serif" font-size="9">West    $125K   $32K   245</text>
+  <text x="70" y="335" fill="#6B7280" font-family="Arial, sans-serif" font-size="9">East    $98K    $28K   198</text>
+  
+  <text x="300" y="385" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Excel Dashboard &amp; Analytics</text>
+</svg>

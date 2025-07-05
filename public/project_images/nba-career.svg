@@ -1,0 +1,59 @@
+<svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <defs>
+    <linearGradient id="nbaGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#DC2626;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E40AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="url(#nbaGradient)"/>
+  
+  <!-- Basketball Court -->
+  <rect x="100" y="80" width="400" height="240" rx="20" fill="#D97706" stroke="#FFF" stroke-width="3"/>
+  
+  <!-- Court Lines -->
+  <line x1="100" y1="200" x2="500" y2="200" stroke="#FFF" stroke-width="2"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="#FFF" stroke-width="2"/>
+  <circle cx="400" cy="200" r="60" fill="none" stroke="#FFF" stroke-width="2"/>
+  
+  <!-- Basketball Hoops -->
+  <rect x="95" y="185" width="10" height="30" fill="#FFF"/>
+  <rect x="495" y="185" width="10" height="30" fill="#FFF"/>
+  
+  <!-- Data Visualization -->
+  <rect x="50" y="50" width="150" height="100" rx="10" fill="#FFF" fill-opacity="0.95"/>
+  <text x="125" y="70" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Career Prediction</text>
+  <text x="125" y="90" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="10">Model Accuracy: 87%</text>
+  
+  <!-- Player Stats -->
+  <rect x="60" y="100" width="130" height="40" rx="5" fill="#1F2937"/>
+  <text x="125" y="115" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="9">PPG: 15.2  RPG: 8.5  APG: 4.1</text>
+  <text x="125" y="130" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="9">Predicted Career: 8.3 years</text>
+  
+  <!-- Performance Chart -->
+  <rect x="400" y="50" width="150" height="100" rx="10" fill="#FFF" fill-opacity="0.95"/>
+  <text x="475" y="70" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Feature Importance</text>
+  
+  <!-- Bar Chart -->
+  <rect x="420" y="85" width="15" height="30" fill="#3B82F6"/>
+  <rect x="440" y="90" width="15" height="25" fill="#10B981"/>
+  <rect x="460" y="95" width="15" height="20" fill="#F59E0B"/>
+  <rect x="480" y="100" width="15" height="15" fill="#EF4444"/>
+  <rect x="500" y="105" width="15" height="10" fill="#8B5CF6"/>
+  
+  <!-- Labels -->
+  <text x="427" y="125" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="6">PTS</text>
+  <text x="447" y="125" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="6">REB</text>
+  <text x="467" y="125" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="6">AST</text>
+  <text x="487" y="125" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="6">MIN</text>
+  <text x="507" y="125" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="6">FG%</text>
+  
+  <!-- Tech Stack -->
+  <rect x="220" y="340" width="160" height="40" rx="5" fill="#FFF" fill-opacity="0.95"/>
+  <text x="300" y="355" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="10" font-weight="bold">Python • Scikit-learn • Pandas</text>
+  <text x="300" y="370" text-anchor="middle" fill="#1F2937" font-family="Arial, sans-serif" font-size="10">Feature Engineering • Ensemble Methods</text>
+  
+  <text x="300" y="390" text-anchor="middle" fill="#FFF" font-family="Arial, sans-serif" font-size="16" font-weight="bold">NBA Career Duration Prediction</text>
+</svg>
