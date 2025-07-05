@@ -78,8 +78,8 @@ const Contact = () => {
     try {
       // Using EmailJS for form submission
       await emailjs.send(
-        'YOUR_SERVICE_ID', // Replace with your EmailJS service ID
-        'YOUR_TEMPLATE_ID', // Replace with your EmailJS template ID
+        'service_i1oimpa', // Your EmailJS service ID
+        'template_9lsvw3t', // Your EmailJS template ID
         {
           from_name: formData.name,
           from_email: formData.email,
@@ -87,7 +87,7 @@ const Contact = () => {
           message: formData.message,
           to_name: 'Muhammad Umar'
         },
-        'YOUR_PUBLIC_KEY' // Replace with your EmailJS public key
+        'yV8vxxHKlbCMGIvxZ' // Your EmailJS public key
       )
       
       setSubmitStatus('success')
