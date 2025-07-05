@@ -52,7 +52,7 @@ export const personalInfo = {
   
   // Resume
   resume: {
-    downloadUrl: "/assets/Muhammad_Umar_Resume.html",
+    downloadUrl: "/assets/Muhammad_Umar_Resume.pdf",
     lastUpdated: "December 2024"
   },
   
