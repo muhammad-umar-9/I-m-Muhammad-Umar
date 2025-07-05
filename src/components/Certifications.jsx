@@ -388,7 +388,7 @@ const Certifications = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://www.linkedin.com/in/muhammad-umar-giki"
+                  href="https://www.linkedin.com/in/muhammad-umar-k"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"

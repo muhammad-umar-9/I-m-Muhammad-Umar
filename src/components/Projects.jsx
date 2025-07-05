@@ -351,7 +351,7 @@ const Projects = () => {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <a
-                  href="https://github.com/muhammad-umar"
+                  href="https://github.com/muhammad-umar-9"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary flex items-center gap-2"
