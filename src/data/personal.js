@@ -45,14 +45,14 @@ export const personalInfo = {
     github: "https://github.com/muhammad-umar-9",
     linkedin: "https://www.linkedin.com/in/muhammad-umar-k",
     email: "mailto:muhammadumark901@gmail.com",
-    twitter: "https://twitter.com/muhammad_umar_ai",
-    instagram: "https://instagram.com/muhammad_umar_dev",
-    website: "https://muhammadumar.dev"
+    twitter: "#", // Add your Twitter URL here if you have one
+    instagram: "#", // Add your Instagram URL here if you have one
+    website: "#" // Add your website URL here if you have one
   },
   
   // Resume
   resume: {
-    downloadUrl: "public/assets/Muhammad_Umar_Resume.pdf",
+    downloadUrl: "/assets/Muhammad_Umar_Resume.pdf",
     lastUpdated: "December 2024"
   },
   
