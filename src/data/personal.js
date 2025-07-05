@@ -3,13 +3,13 @@ export const personalInfo = {
   name: "Muhammad Umar",
   title: "Data Analyst | AI Student | Full Stack Developer",
   subtitle: "Turning Data into Insights, Building the Future with AI & Web Technologies",
-  email: "muhammad.umar@giki.edu.pk",
-  phone: "+92 XXX XXXXXXX",
+  email: "muhammadumark901@gmail.com",
+  phone: "+92 348 0933979",
   location: "Topi, Pakistan",
   university: "Ghulam Ishaq Khan Institute of Engineering Sciences and Technology (GIKI)",
   program: "Bachelor of Science in Artificial Intelligence",
   currentYear: "3rd Year",
-  expectedGraduation: "2025",
+  expectedGraduation: "2027",
   
   // Academic Information
   academic: {
@@ -42,9 +42,9 @@ export const personalInfo = {
   
   // Social Links
   social: {
-    github: "https://github.com/muhammad-umar",
-    linkedin: "https://linkedin.com/in/muhammad-umar-giki",
-    email: "mailto:muhammad.umar@giki.edu.pk",
+    github: "https://github.com/muhammad-umar-9",
+    linkedin: "https://www.linkedin.com/in/muhammad-umar-k",
+    email: "mailto:muhammadumark901@gmail.com",
     twitter: "https://twitter.com/muhammad_umar_ai",
     instagram: "https://instagram.com/muhammad_umar_dev",
     website: "https://muhammadumar.dev"
@@ -90,7 +90,7 @@ export const funFacts = [
 export const currentStatus = {
   status: "Available for Internships",
   lookingFor: ["Data Analyst Internship", "AI/ML Internship", "Full Stack Developer Internship", "Software Development Internship"],
-  availability: "Summer 2025",
+  availability: "Summer 2027",
   preferredLocation: "Remote / Islamabad / Lahore",
   workType: ["Internship", "Part-time", "Project-based"]
 }
