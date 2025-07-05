@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { HiMail, HiPhone, HiLocationMarker, HiPaperAirplane } from 'react-icons/hi'
@@ -18,6 +18,11 @@ const Contact = () => {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState(null)
   const formRef = useRef()
+  
+  // Initialize EmailJS
+  useEffect(() => {
+    emailjs.init('yV8vxxHKlbCMGIvxZ')
+  }, [])
   
   const [ref, inView] = useInView({
     triggerOnce: true,
@@ -76,8 +81,15 @@ const Contact = () => {
     setSubmitStatus(null)
     
     try {
+      console.log('Attempting to send email with data:', {
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message
+      })
+      
       // Using EmailJS for form submission
-      await emailjs.send(
+      const result = await emailjs.send(
         'service_i1oimpa', // Your EmailJS service ID
         'template_9lsvw3t', // Your EmailJS template ID
         {
@@ -86,10 +98,11 @@ const Contact = () => {
           subject: formData.subject,
           message: formData.message,
           to_name: 'Muhammad Umar'
-        },
-        'yV8vxxHKlbCMGIvxZ' // Your EmailJS public key
+        }
+        // Public key is already initialized in useEffect
       )
       
+      console.log('EmailJS success:', result)
       setSubmitStatus('success')
       setFormData({ name: '', email: '', subject: '', message: '' })
       clearContactDraft()
@@ -98,8 +111,25 @@ const Contact = () => {
       setTimeout(() => setSubmitStatus(null), 5000)
       
     } catch (error) {
-      console.error('Error sending email:', error)
-      setSubmitStatus('error')
+      console.error('EmailJS error details:', error)
+      console.error('Error status:', error.status)
+      console.error('Error text:', error.text)
+      
+      // Fallback to mailto if EmailJS fails
+      if (error.status === 400 || error.status === 401 || error.status === 404) {
+        console.log('Falling back to mailto...')
+        const subject = encodeURIComponent(formData.subject || 'Message from Portfolio')
+        const body = encodeURIComponent(
+          `Name: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`
+        )
+        const mailtoLink = `mailto:${personalInfo.email}?subject=${subject}&body=${body}`
+        window.location.href = mailtoLink
+        setSubmitStatus('success')
+        setFormData({ name: '', email: '', subject: '', message: '' })
+        clearContactDraft()
+      } else {
+        setSubmitStatus('error')
+      }
     } finally {
       setIsSubmitting(false)
     }
