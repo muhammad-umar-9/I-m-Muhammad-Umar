@@ -36,7 +36,7 @@ export const projects = [
     technologies: ["Python", "Pandas", "Scikit-learn", "Tableau", "Machine Learning", "Data Visualization"],
     category: "Machine Learning",
     githubUrl: "https://github.com/muhammad-umar-9/salifort-motors-capstone",
-    liveUrl: "https://public.tableau.com/app/profile/muhammad.umar",
+    liveUrl: "https://public.tableau.com/app/profile/muhammad.umar6880/vizzes",
     image: "/project_images/salifort-motors.svg",
     featured: true,
     status: "Completed",
